@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctoberCourses", "OctoberCourses\OctoberCourses.csproj", "{FD54001E-0C60-4C1D-A5F6-93648110A666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctoberCourses.Tests", "OctoberCourses.Tests\OctoberCourses.Tests.csproj", "{4A6901B5-5C5B-47E1-BE88-306D4114AD5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD54001E-0C60-4C1D-A5F6-93648110A666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD54001E-0C60-4C1D-A5F6-93648110A666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD54001E-0C60-4C1D-A5F6-93648110A666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD54001E-0C60-4C1D-A5F6-93648110A666}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6901B5-5C5B-47E1-BE88-306D4114AD5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6901B5-5C5B-47E1-BE88-306D4114AD5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6901B5-5C5B-47E1-BE88-306D4114AD5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6901B5-5C5B-47E1-BE88-306D4114AD5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9175D678-C6E7-4586-8079-3AB8C7170B2C}
+	EndGlobalSection
+EndGlobal
