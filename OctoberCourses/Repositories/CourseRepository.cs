@@ -2,34 +2,29 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using OctoberCourses.Data;
 using OctoberCourses.Models;
 
 namespace OctoberCourses.Repositories
 {
     public class CourseRepository : IRepository<Courses>
     {
-        public List<Courses> coursesList;
+        private UniversityContext db;
 
-        public CourseRepository()
+        public CourseRepository(UniversityContext db)
         {
-            coursesList = new List<Courses>()
-            {
-            new Courses(1, "Machine Learning", "No, Don't let the machines learn anything"),
-            new Courses(2, "C# for Dummies", "This book series is insulting"),
-            new Courses(3, "HTML, CSS, JVS", "Web Design")
-
-            };
+            this.db = db;
 
         }
 
         public IEnumerable<Courses> GetAll()
         {
-            return coursesList;
+            return db.Courses;
         }
 
         public Courses GetById(int id)
         {
-            return coursesList.Single(c => c.Id == id);
+            return db.Courses.Single(c => c.Id == id);
         }
     }
 }

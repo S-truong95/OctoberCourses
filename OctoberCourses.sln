@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctoberCourses", "OctoberCourses\OctoberCourses.csproj", "{FD54001E-0C60-4C1D-A5F6-93648110A666}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OctoberCourses", "OctoberCourses\OctoberCourses.csproj", "{FD54001E-0C60-4C1D-A5F6-93648110A666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OctoberCourses.Tests", "OctoberCourses.Tests\OctoberCourses.Tests.csproj", "{4A6901B5-5C5B-47E1-BE88-306D4114AD5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OctoberCourses.Tests", "OctoberCourses.Tests\OctoberCourses.Tests.csproj", "{4A6901B5-5C5B-47E1-BE88-306D4114AD5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using OctoberCourses.Controllers;
 using OctoberCourses.Models;
 using OctoberCourses.Repositories;
+using OctoberCourses.Data;
 
 
 namespace OctoberCourses
@@ -34,8 +35,9 @@ namespace OctoberCourses
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-
+            services.AddDbContext<UniversityContext>();
             services.AddScoped<IRepository<Courses>, CourseRepository>();
+            services.AddScoped<IRepository<Instructor>, InstructorRepository>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
